@@ -7,7 +7,7 @@ from tqdm import tqdm
 import requests
 
 # read image metadata, get roll, pitch, yaw, assuming all nadir, gps coordinate
-path = "/Users/yli/Desktop/map/Autel-20220521-FitzroyP3" #"/Users/yli/GeoNadir/mosaic/quick-stitching-for-drone/datasets/images" #
+path = "./dataset" 
 ## factor to resize images for quick processing
 resize = 8
 factor = 1
